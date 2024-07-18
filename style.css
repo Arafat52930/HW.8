@@ -1,0 +1,906 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.container{
+  width: 1170px;
+  margin: auto;
+}
+.row{
+  display: flex;
+  flex-wrap: wrap;
+}
+ul li{
+  list-style-type: none;
+}
+h1,h2,h3,h4,h5,h6,p{
+  padding: 0;
+  margin: 0;
+}
+a{
+  text-decoration: none;
+}
+
+header{
+  background-color:#0f2f44 ;
+}
+header span{
+  color: white;
+  font-family: "Ubuntu", sans-serif;
+  padding: 19px;
+  line-height: 0;
+}
+header .row{
+  justify-content: space-between;
+}
+nav{
+  background-color: #ffff;
+}
+
+nav .row{
+  align-items: center;
+  justify-content: space-between;
+}
+nav ul li{
+  display: inline-block;
+}
+nav ul li{
+  display: inline-block;
+  padding: 42px 19px ;
+}
+
+
+
+
+
+
+
+
+nav ul li.search{
+  padding-right: 0 !important;
+  
+}
+
+
+nav ul li.search span{
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 1px solid #999999 ;
+  text-align: center;
+  line-height: 30px;
+
+}
+nav ul li:nth-child(7) span{
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 1px solid #999999 ;
+  text-align: center;
+  line-height: 30px;
+
+}
+
+nav ul li a{
+  position: relative;
+  color: #999999;
+  font-size: 16px;
+  font-family: "Ubuntu", sans-serif;
+}
+nav ul li a:hover{
+  color: royalblue;
+  font-size: large;
+}
+nav ul li a::after{
+  content: '';
+  position: absolute;
+  background-color: #ffc712;
+  height: 3px;
+  width: 0;
+  left: 0;
+  bottom: -10px;
+  transition: 0.3s;
+  
+}
+nav ul li a:hover::after{
+  width: 100%;
+  
+}
+
+
+
+
+
+
+
+nav ul li :nth-child(7){
+  color: #9f9f9f;
+}
+#banner{
+  background-image: url(./banner.png);
+  height: 600px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+#banner .contains{
+  width: 470px;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+#banner .contains h4{
+  font-size: 50px;
+  font-family: "Ubuntu", sans-serif; 
+  font-weight: 300;
+}
+#banner .contains h1{
+  font-size: 80px;
+  font-family: "Abril Fatface", serif;
+  font-weight: 400;
+}
+#banner .contains h5{
+  letter-spacing: 9px;
+  color: #8484bf;
+  font-size: 32px;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+
+}
+#banner .contains p{
+  font-size: 14px;
+  line-height:100% ;
+  padding: 30px 0;
+}
+#banner .btn-box{
+  
+  display: flex;
+  align-items: center;
+  
+}
+#banner .btn-box a{
+  padding: 16px 20px;
+  display: inline-block;
+  background-color: #8484bf;
+  font-size: 20px;
+  font-family: "Ubuntu", sans-serif;
+  color: #ffff;
+  font-weight: 500;
+  margin-right: 20px;
+  border-radius: 5px;
+}
+#about .box{
+  width: 50%;
+  padding: 100px 0;
+}
+#about h2{
+  font-size: 32px;
+  color: #0f2f44;
+  font-family:"Abril Fatface", serif ;
+  padding:10px 0 30px ;
+}
+#about ul{
+  padding: 32px 0 32px 32px;
+}
+#about a{
+  
+  padding: 16px 20px;
+  display: inline-block;
+  background-color: #ffc712;
+  font-size: 20px;
+  font-family:"Ubuntu", sans-serif; 
+  color: #0f2f44;
+  box-shadow: 3px 3px 20px hsl(204, 3%, 35%);
+  border-radius: 7px;
+  margin-right: 20px;
+
+}
+#about a:hover{
+  background-color: #ffff;
+}
+#about a:last-child{
+  background-color: #ffff;
+}
+#about a:last-child:hover{
+  background-color: #ffc712;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*{
+  margin: 0;
+  padding: 0;
+}
+.container{
+  width: 1170px;
+  margin: auto;
+}
+.row{
+  display: flex;
+  flex-wrap: wrap;
+}
+ul li{
+  list-style-type: none;
+}
+h1,h2,h3,h4,h5,h6,p{
+  padding: 0;
+  margin: 0;
+}
+a{
+  text-decoration: none;
+}
+
+header{
+  background-color:#0f2f44 ;
+}
+header span{
+  color: white;
+  font-family: "Ubuntu", sans-serif;
+  padding: 19px;
+  line-height: 0;
+}
+header .row{
+  justify-content: space-between;
+}
+nav{
+  background-color: #ffff;
+}
+
+nav .row{
+  align-items: center;
+  justify-content: space-between;
+}
+nav ul li{
+  display: inline-block;
+}
+nav ul li{
+  display: inline-block;
+  padding: 42px 19px ;
+}
+
+
+
+
+
+
+
+
+nav ul li.search{
+  padding-right: 0 !important;
+  
+}
+
+
+nav ul li.search span{
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 1px solid #999999 ;
+  text-align: center;
+  line-height: 30px;
+
+}
+nav ul li:nth-child(7) span{
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 1px solid #999999 ;
+  text-align: center;
+  line-height: 30px;
+
+}
+
+nav ul li a{
+  position: relative;
+  color: #999999;
+  font-size: 16px;
+  font-family: "Ubuntu", sans-serif;
+}
+nav ul li a:hover{
+  color: royalblue;
+  font-size: large;
+}
+nav ul li a::after{
+  content: '';
+  position: absolute;
+  background-color: #ffc712;
+  height: 3px;
+  width: 0;
+  left: 0;
+  bottom: -10px;
+  transition: 0.3s;
+  
+}
+nav ul li a:hover::after{
+  width: 100%;
+  
+}
+
+
+
+
+
+
+
+nav ul li :nth-child(7){
+  color: #9f9f9f;
+}
+#banner{
+  background-image: url(images/banner.png);
+  height: 600px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+#banner .contains{
+  width: 470px;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+#banner .contains h4{
+  font-size: 50px;
+  font-family: "Ubuntu", sans-serif; 
+  font-weight: 300;
+}
+#banner .contains h1{
+  font-size: 80px;
+  font-family: "Abril Fatface", serif;
+  font-weight: 400;
+}
+#banner .contains h5{
+  letter-spacing: 9px;
+  color: #8484bf;
+  font-size: 32px;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+
+}
+#banner .contains p{
+  font-size: 14px;
+  line-height:100% ;
+  padding: 30px 0;
+}
+#banner .btn-box{
+  
+  display: flex;
+  align-items: center;
+  
+}
+#banner .btn-box a{
+  padding: 16px 20px;
+  display: inline-block;
+  background-color: #8484bf;
+  font-size: 20px;
+  font-family: "Ubuntu", sans-serif;
+  color: #ffff;
+  font-weight: 500;
+  margin-right: 20px;
+  border-radius: 5px;
+}
+#about .box{
+  width: 50%;
+  padding: 100px 0;
+}
+#about h2{
+  font-size: 32px;
+  color: #0f2f44;
+  font-family:"Abril Fatface", serif ;
+  padding:10px 0 30px ;
+}
+#about ul{
+  padding: 32px 0 32px 32px;
+}
+#about a{
+  
+  padding: 16px 20px;
+  display: inline-block;
+  background-color: #ffc712;
+  font-size: 20px;
+  font-family:"Ubuntu", sans-serif; 
+  color: #0f2f44;
+  box-shadow: 3px 3px 20px hsl(204, 3%, 35%);
+  border-radius: 7px;
+  margin-right: 20px;
+
+}
+#about a:hover{
+  background-color: #ffff;
+}
+#about a:last-child{
+  background-color: #ffff;
+}
+#about a:last-child:hover{
+  background-color: #ffc712;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*{
+  margin: 0;
+  padding: 0;
+}
+.container{
+  width: 1170px;
+  margin: auto;
+}
+.row{
+  display: flex;
+  flex-wrap: wrap;
+}
+ul li{
+  list-style-type: none;
+}
+h1,h2,h3,h4,h5,h6,p{
+  padding: 0;
+  margin: 0;
+}
+a{
+  text-decoration: none;
+}
+
+header{
+  background-color:#0f2f44 ;
+}
+header span{
+  color: white;
+  font-family: "Ubuntu", sans-serif;
+  padding: 19px;
+  line-height: 0;
+}
+header .row{
+  justify-content: space-between;
+}
+nav{
+  background-color: #ffff;
+}
+
+nav .row{
+  align-items: center;
+  justify-content: space-between;
+}
+nav ul li{
+  display: inline-block;
+}
+nav ul li{
+  display: inline-block;
+  padding: 42px 19px ;
+}
+
+
+
+
+
+
+
+
+nav ul li.search{
+  padding-right: 0 !important;
+  
+}
+
+
+nav ul li.search span{
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 1px solid #999999 ;
+  text-align: center;
+  line-height: 30px;
+
+}
+nav ul li:nth-child(7) span{
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 1px solid #999999 ;
+  text-align: center;
+  line-height: 30px;
+
+}
+
+nav ul li a{
+  position: relative;
+  color: #999999;
+  font-size: 16px;
+  font-family: "Ubuntu", sans-serif;
+}
+nav ul li a:hover{
+  color: royalblue;
+  font-size: large;
+}
+nav ul li a::after{
+  content: '';
+  position: absolute;
+  background-color: #ffc712;
+  height: 3px;
+  width: 0;
+  left: 0;
+  bottom: -10px;
+  transition: 0.3s;
+  
+}
+nav ul li a:hover::after{
+  width: 100%;
+  
+}
+
+
+
+
+
+
+
+nav ul li :nth-child(7){
+  color: #9f9f9f;
+}
+#banner{
+  background-image: url(./banner.png);
+  height: 600px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+#banner .contains{
+  width: 470px;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+#banner .contains h4{
+  font-size: 50px;
+  font-family: "Ubuntu", sans-serif; 
+  font-weight: 300;
+}
+#banner .contains h1{
+  font-size: 80px;
+  font-family: "Abril Fatface", serif;
+  font-weight: 400;
+}
+#banner .contains h5{
+  letter-spacing: 9px;
+  color: #8484bf;
+  font-size: 32px;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+
+}
+#banner .contains p{
+  font-size: 14px;
+  line-height:100% ;
+  padding: 30px 0;
+}
+#banner .btn-box{
+  
+  display: flex;
+  align-items: center;
+  
+}
+#banner .btn-box a{
+  padding: 16px 20px;
+  display: inline-block;
+  background-color: #8484bf;
+  font-size: 20px;
+  font-family: "Ubuntu", sans-serif;
+  color: #ffff;
+  font-weight: 500;
+  margin-right: 20px;
+  border-radius: 5px;
+}
+#about .box{
+  width: 50%;
+  padding: 100px 0;
+}
+#about h2{
+  font-size: 32px;
+  color: #0f2f44;
+  font-family:"Abril Fatface", serif ;
+  padding:10px 0 30px ;
+}
+#about ul{
+  padding: 32px 0 32px 32px;
+}
+#about a{
+  
+  padding: 16px 20px;
+  display: inline-block;
+  background-color: #ffc712;
+  font-size: 20px;
+  font-family:"Ubuntu", sans-serif; 
+  color: #0f2f44;
+  box-shadow: 3px 3px 20px hsl(204, 3%, 35%);
+  border-radius: 7px;
+  margin-right: 20px;
+
+}
+#about a:hover{
+  background-color: #ffff;
+}
+#about a:last-child{
+  background-color: #ffff;
+}
+#about a:last-child:hover{
+  background-color: #ffc712;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*{
+  margin: 0;
+  padding: 0;
+}
+.container{
+  width: 1170px;
+  margin: auto;
+}
+.row{
+  display: flex;
+  flex-wrap: wrap;
+}
+ul li{
+  list-style-type: none;
+}
+h1,h2,h3,h4,h5,h6,p{
+  padding: 0;
+  margin: 0;
+}
+a{
+  text-decoration: none;
+}
+
+header{
+  background-color:#0f2f44 ;
+}
+header span{
+  color: white;
+  font-family: "Ubuntu", sans-serif;
+  padding: 19px;
+  line-height: 0;
+}
+header .row{
+  justify-content: space-between;
+}
+nav{
+  background-color: #ffff;
+}
+
+nav .row{
+  align-items: center;
+  justify-content: space-between;
+}
+nav ul li{
+  display: inline-block;
+}
+nav ul li{
+  display: inline-block;
+  padding: 42px 19px ;
+}
+
+
+
+
+
+
+
+
+nav ul li.search{
+  padding-right: 0 !important;
+  
+}
+
+
+nav ul li.search span{
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 1px solid #999999 ;
+  text-align: center;
+  line-height: 30px;
+
+}
+nav ul li:nth-child(7) span{
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 1px solid #999999 ;
+  text-align: center;
+  line-height: 30px;
+
+}
+
+nav ul li a{
+  position: relative;
+  color: #999999;
+  font-size: 16px;
+  font-family: "Ubuntu", sans-serif;
+}
+nav ul li a:hover{
+  color: royalblue;
+  font-size: large;
+}
+nav ul li a::after{
+  content: '';
+  position: absolute;
+  background-color: #ffc712;
+  height: 3px;
+  width: 0;
+  left: 0;
+  bottom: -10px;
+  transition: 0.3s;
+  
+}
+nav ul li a:hover::after{
+  width: 100%;
+  
+}
+
+
+
+
+
+
+
+nav ul li :nth-child(7){
+  color: #9f9f9f;
+}
+#banner{
+  background-image: url(./banner.png);
+  height: 600px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+#banner .contains{
+  width: 470px;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+#banner .contains h4{
+  font-size: 50px;
+  font-family: "Ubuntu", sans-serif; 
+  font-weight: 300;
+}
+#banner .contains h1{
+  font-size: 80px;
+  font-family: "Abril Fatface", serif;
+  font-weight: 400;
+}
+#banner .contains h5{
+  letter-spacing: 9px;
+  color: #8484bf;
+  font-size: 32px;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+
+}
+#banner .contains p{
+  font-size: 14px;
+  line-height:100% ;
+  padding: 30px 0;
+}
+#banner .btn-box{
+  
+  display: flex;
+  align-items: center;
+  
+}
+#banner .btn-box a{
+  padding: 16px 20px;
+  display: inline-block;
+  background-color: #8484bf;
+  font-size: 20px;
+  font-family: "Ubuntu", sans-serif;
+  color: #ffff;
+  font-weight: 500;
+  margin-right: 20px;
+  border-radius: 5px;
+}
+#about .box{
+  width: 50%;
+  padding: 100px 0;
+}
+#about h2{
+  font-size: 32px;
+  color: #0f2f44;
+  font-family:"Abril Fatface", serif ;
+  padding:10px 0 30px ;
+}
+#about ul{
+  padding: 32px 0 32px 32px;
+}
+#about a{
+  
+  padding: 16px 20px;
+  display: inline-block;
+  background-color: #ffc712;
+  font-size: 20px;
+  font-family:"Ubuntu", sans-serif; 
+  color: #0f2f44;
+  box-shadow: 3px 3px 20px hsl(204, 3%, 35%);
+  border-radius: 7px;
+  margin-right: 20px;
+
+}
+#about a:hover{
+  background-color: #ffff;
+}
+#about a:last-child{
+  background-color: #ffff;
+}
+#about a:last-child:hover{
+  background-color: #ffc712;
+}
